@@ -1,5 +1,3 @@
-// Creat de Sirb Alin Cristian
-
 function encrypt(_) {
 	var __ = "";
 	[..._].forEach(___ => __ += String.fromCharCode(~___.charCodeAt(0)));
